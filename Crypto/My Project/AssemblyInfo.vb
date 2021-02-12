@@ -10,8 +10,8 @@ Imports System.Runtime.InteropServices
 
 ' Revisar los valores de los atributos del ensamblado
 
-<Assembly: AssemblyTitle("Cypher")> 
-<Assembly: AssemblyDescription("Encriptado y desencriptado de textos para fines privados. Versión Beta")> 
+<Assembly: AssemblyTitle("Cypher")>
+<Assembly: AssemblyDescription("Encriptado y desencriptado de textos para fines privados y educativos.")>
 <Assembly: AssemblyCompany("Salavador D. Escobedo")> 
 <Assembly: AssemblyProduct("Cypher")>
 <Assembly: AssemblyCopyright("Copyright ©  2013 (MIT)")>
@@ -20,7 +20,7 @@ Imports System.Runtime.InteropServices
 <Assembly: ComVisible(False)> 
 
 'El siguiente GUID sirve como identificador de typelib si este proyecto se expone a COM
-<Assembly: Guid("800241b8-4396-4390-9beb-78c827d7dbbd")> 
+<Assembly: Guid("800241b8-4396-4390-9beb-78c827d7dbbd")>
 
 ' La información de versión de un ensamblado consta de los cuatro valores siguientes:
 '
@@ -33,7 +33,7 @@ Imports System.Runtime.InteropServices
 ' mediante el asterisco ('*'), como se muestra a continuación:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.1.0.0")> 
-<Assembly: AssemblyFileVersion("1.1.0.0")> 
+<Assembly: AssemblyVersion("1.1.2.0")>
+<Assembly: AssemblyFileVersion("1.1.2.0")>
 
 <Assembly: NeutralResourcesLanguageAttribute("")> 

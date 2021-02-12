@@ -29,8 +29,8 @@
     <ProductName>Cypher</ProductName>
     <PublisherName>Salvador D. Escobedo</PublisherName>
     <SuiteName>Cypher</SuiteName>
-    <ApplicationRevision>2</ApplicationRevision>
-    <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.1.2.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -72,7 +72,7 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>CypherLogo.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\Cypher.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>7E38800F5D203055A3554A48046F347FB0222FC4</ManifestCertificateThumbprint>
@@ -185,9 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen1.resx">
       <DependentUpon>SplashScreen1.vb</DependentUpon>
@@ -207,7 +207,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CypherLogo.ico" />
+    <None Include="Resources\Cypher.ico" />
     <None Include="Resources\YouTube.png" />
   </ItemGroup>
   <ItemGroup>
