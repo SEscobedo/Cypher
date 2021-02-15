@@ -12,7 +12,7 @@ Una vez abierto el archivo, elija el método de encriptado de entre los siguient
 * Perfect Security II
 
 Esta lista está ordenada de más seguro a menos seguro. En el caso del método Julio César debe elegir también una clave, que va desde el número 1 hasta el número n de caracteres del alfabeto que se esté usando. Si elige un número mayor, el programa simplemente tomará el residuo módulo n.
-Haga clic en el botón “Encriptar” para encriptar el texto.
+Haga clic en el botón `Encriptar` para encriptar el texto.
 
 **IMPORTANTE: Tenga cuidado en recordar el método y la clave usada para encriptar sus archivos. Esta versión no encripta archivos que no sean de texto en formato UTF8 o Unicode. No trate de encriptar con esta versión archivos de MS Office, audio o video.**
 
