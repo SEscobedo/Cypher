@@ -29,6 +29,7 @@ bld/
 
 #Setup project
 **/Setup1/
+**/CypherX_setup
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
