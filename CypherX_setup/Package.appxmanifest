@@ -7,9 +7,9 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="CypherX"
+    Name="46653Macrocosmos.CypherX"
     Publisher="CN=DA57A03B-3320-471F-A7C0-DF560CF63533"
-    Version="1.2.8.0" />
+    Version="1.2.11.0" />
 
   <Properties>
     <DisplayName>CypherX</DisplayName>
