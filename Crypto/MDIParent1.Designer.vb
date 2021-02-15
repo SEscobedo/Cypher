@@ -481,7 +481,7 @@ Partial Class MDIParent1
 		Me.MainMenuStrip = Me.MenuStrip
 		Me.Name = "MDIParent1"
 		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-		Me.Text = "Cypher"
+		Me.Text = "CypherX"
 		Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
 		Me.MenuStrip.ResumeLayout(False)
 		Me.MenuStrip.PerformLayout()

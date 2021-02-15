@@ -32,12 +32,12 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Cypher.MDIParent1
+            Me.MainForm = Global.CypherX.MDIParent1
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateSplashScreen()
-            Me.SplashScreen = Global.Cypher.SplashScreen1
+            Me.SplashScreen = Global.CypherX.SplashScreen1
         End Sub
     End Class
 End Namespace

@@ -281,29 +281,15 @@ Public Class MDIParent1
     End Sub
 
     Private Sub HelpToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles HelpToolStripButton.Click
-        ' Shell("Manual del usuario.pdf", AppWinStyle.NormalFocus)
-        'MsgBox("El manual del usuario no está disponible para esta versión", MsgBoxStyle.Exclamation)
-        Try
-            Dim psi As New ProcessStartInfo()
-            psi.UseShellExecute = True
-            psi.FileName = "Manual del usuario.pdf"
-            Process.Start(psi)
-        Catch ex As Exception
-            MsgBox(Err.Description)
-        End Try
+
+        System.Diagnostics.Process.Start("https://sescobedo.github.io/CypherX/")
+
     End Sub
 
     Private Sub IndexToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles IndexToolStripMenuItem.Click
-        ' Shell("Manual del usuario.pdf", AppWinStyle.NormalFocus)
-        'MsgBox("El manual del usuario no está disponible para esta versión", MsgBoxStyle.Exclamation)
-        Try
-            Dim psi As New ProcessStartInfo()
-            psi.UseShellExecute = True
-            psi.FileName = "Manual del usuario.pdf"
-            Process.Start(psi)
-        Catch ex As Exception
-            MsgBox(Err.Description)
-        End Try
+
+        System.Diagnostics.Process.Start("https://sescobedo.github.io/CypherX/")
+
     End Sub
 
     Private Sub TutorialesToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TutorialesToolStripMenuItem.Click

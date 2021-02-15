@@ -8,9 +8,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{BAB8B59D-9CD1-4E91-8F70-B8C3F89FB0CC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Cypher.My.MyApplication</StartupObject>
-    <RootNamespace>Cypher</RootNamespace>
-    <AssemblyName>Cypher</AssemblyName>
+    <StartupObject>CypherX.My.MyApplication</StartupObject>
+    <RootNamespace>CypherX</RootNamespace>
+    <AssemblyName>CypherX</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -43,7 +43,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Cypher.xml</DocumentationFile>
+    <DocumentationFile>CypherX.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <Prefer32Bit>false</Prefer32Bit>
@@ -55,7 +55,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Cypher.xml</DocumentationFile>
+    <DocumentationFile>CypherX.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -75,7 +75,7 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\Cypher.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\CypherX.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>7E38800F5D203055A3554A48046F347FB0222FC4</ManifestCertificateThumbprint>
@@ -236,6 +236,12 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CypherX.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CypherX.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

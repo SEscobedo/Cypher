@@ -64,9 +64,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.Cypher.My.MySettings
+        Friend ReadOnly Property Settings() As Global.CypherX.My.MySettings
             Get
-                Return Global.Cypher.My.MySettings.Default
+                Return Global.CypherX.My.MySettings.Default
             End Get
         End Property
     End Module

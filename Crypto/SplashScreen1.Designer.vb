@@ -27,26 +27,27 @@ Partial Class SplashScreen1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-		Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SplashScreen1))
 		Me.MainLayoutPanel = New System.Windows.Forms.TableLayoutPanel()
 		Me.DetailsLayoutPanel = New System.Windows.Forms.TableLayoutPanel()
 		Me.Version = New System.Windows.Forms.Label()
 		Me.Copyright = New System.Windows.Forms.Label()
 		Me.ApplicationTitle = New System.Windows.Forms.Label()
+		Me.PictureBox1 = New System.Windows.Forms.PictureBox()
 		Me.MainLayoutPanel.SuspendLayout()
 		Me.DetailsLayoutPanel.SuspendLayout()
+		CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
 		Me.SuspendLayout()
 		'
 		'MainLayoutPanel
 		'
-		Me.MainLayoutPanel.BackgroundImage = CType(resources.GetObject("MainLayoutPanel.BackgroundImage"), System.Drawing.Image)
-		Me.MainLayoutPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+		Me.MainLayoutPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
 		Me.MainLayoutPanel.ColumnCount = 2
 		Me.MainLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 243.0!))
 		Me.MainLayoutPanel.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100.0!))
 		Me.MainLayoutPanel.Controls.Add(Me.DetailsLayoutPanel, 1, 1)
 		Me.MainLayoutPanel.Controls.Add(Me.ApplicationTitle, 1, 0)
-		Me.MainLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill
+		Me.MainLayoutPanel.Controls.Add(Me.PictureBox1, 0, 0)
+		Me.MainLayoutPanel.Dock = System.Windows.Forms.DockStyle.Left
 		Me.MainLayoutPanel.Location = New System.Drawing.Point(0, 0)
 		Me.MainLayoutPanel.Name = "MainLayoutPanel"
 		Me.MainLayoutPanel.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 218.0!))
@@ -87,7 +88,7 @@ Partial Class SplashScreen1
 		Me.Copyright.Anchor = System.Windows.Forms.AnchorStyles.None
 		Me.Copyright.BackColor = System.Drawing.Color.Transparent
 		Me.Copyright.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.Copyright.ForeColor = System.Drawing.SystemColors.ControlLight
+		Me.Copyright.ForeColor = System.Drawing.Color.MidnightBlue
 		Me.Copyright.Location = New System.Drawing.Point(3, 39)
 		Me.Copyright.Name = "Copyright"
 		Me.Copyright.Size = New System.Drawing.Size(241, 40)
@@ -99,13 +100,24 @@ Partial Class SplashScreen1
 		Me.ApplicationTitle.Anchor = System.Windows.Forms.AnchorStyles.None
 		Me.ApplicationTitle.BackColor = System.Drawing.Color.Transparent
 		Me.ApplicationTitle.Font = New System.Drawing.Font("MS UI Gothic", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.ApplicationTitle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+		Me.ApplicationTitle.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
 		Me.ApplicationTitle.Location = New System.Drawing.Point(246, 3)
 		Me.ApplicationTitle.Name = "ApplicationTitle"
 		Me.ApplicationTitle.Size = New System.Drawing.Size(247, 212)
 		Me.ApplicationTitle.TabIndex = 0
 		Me.ApplicationTitle.Text = "Título de la aplicación"
 		Me.ApplicationTitle.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+		'
+		'PictureBox1
+		'
+		Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
+		Me.PictureBox1.Image = Global.CypherX.My.Resources.Resources.CypherX1
+		Me.PictureBox1.Location = New System.Drawing.Point(3, 3)
+		Me.PictureBox1.Name = "PictureBox1"
+		Me.PictureBox1.Size = New System.Drawing.Size(237, 212)
+		Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+		Me.PictureBox1.TabIndex = 2
+		Me.PictureBox1.TabStop = False
 		'
 		'SplashScreen1
 		'
@@ -122,8 +134,10 @@ Partial Class SplashScreen1
 		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.MainLayoutPanel.ResumeLayout(False)
 		Me.DetailsLayoutPanel.ResumeLayout(False)
+		CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
 		Me.ResumeLayout(False)
 
 	End Sub
 
+	Friend WithEvents PictureBox1 As PictureBox
 End Class

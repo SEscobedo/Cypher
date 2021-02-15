@@ -10,12 +10,12 @@ Imports System.Runtime.InteropServices
 
 ' Revisar los valores de los atributos del ensamblado
 
-<Assembly: AssemblyTitle("Cypher")>
+<Assembly: AssemblyTitle("CypherX")>
 <Assembly: AssemblyDescription("Encriptado y desencriptado de textos para fines privados y educativos.")>
-<Assembly: AssemblyCompany("Salavador D. Escobedo")> 
-<Assembly: AssemblyProduct("Cypher")>
+<Assembly: AssemblyCompany("Salavador D. Escobedo")>
+<Assembly: AssemblyProduct("CypherX")>
 <Assembly: AssemblyCopyright("Copyright ©  2013 (MIT)")>
-<Assembly: AssemblyTrademark("Cypher")> 
+<Assembly: AssemblyTrademark("CypherX")>
 
 <Assembly: ComVisible(False)> 
 
